@@ -13,6 +13,7 @@
 		7C1F70F21B3998E4007F483B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1F70F11B3998E4007F483B /* Images.xcassets */; };
 		7C1F70F51B3998E4007F483B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C1F70F31B3998E4007F483B /* LaunchScreen.xib */; };
 		7C1F71011B3998E5007F483B /* YouTube_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F71001B3998E5007F483B /* YouTube_PlayerTests.swift */; };
+		7C315EAB1B3C40F00027FDAC /* 再生ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C315EAA1B3C40F00027FDAC /* 再生ボタン.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7C1F70FA1B3998E5007F483B /* YouTube-PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YouTube-PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1F70FF1B3998E5007F483B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C1F71001B3998E5007F483B /* YouTube_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTube_PlayerTests.swift; sourceTree = "<group>"; };
+		7C315EAA1B3C40F00027FDAC /* 再生ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "再生ボタン.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		7C1F70DC1B3998E4007F483B = {
 			isa = PBXGroup;
 			children = (
+				7C315EAA1B3C40F00027FDAC /* 再生ボタン.png */,
 				7C1F70E71B3998E4007F483B /* YouTube-Player */,
 				7C1F70FD1B3998E5007F483B /* YouTube-PlayerTests */,
 				7C1F70E61B3998E4007F483B /* Products */,
@@ -195,6 +198,7 @@
 				7C1F70F01B3998E4007F483B /* Main.storyboard in Resources */,
 				7C1F70F51B3998E4007F483B /* LaunchScreen.xib in Resources */,
 				7C1F70F21B3998E4007F483B /* Images.xcassets in Resources */,
+				7C315EAB1B3C40F00027FDAC /* 再生ボタン.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				7C1F71061B3998E5007F483B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C1F71071B3998E5007F483B /* Build configuration list for PBXNativeTarget "YouTube-PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				7C1F71091B3998E5007F483B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
